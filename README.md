@@ -56,7 +56,7 @@ A simple authentication API built with Node.js and Express. This project is inte
 
 | Method | Endpoint         | Description              | Auth Required |
 |--------|------------------|-------------------------|--------------|
-| POST   | /register        | Register a new user     | No           |
+| POST   | /signup        | Register a new user     | No           |
 | POST   | /login           | User login              | No           |
 | GET    | /profile         | Get user profile        | Yes          |
 
@@ -64,9 +64,9 @@ A simple authentication API built with Node.js and Express. This project is inte
 
 ## Usage Example
 
-### Register
+### Signup
 ```http
-POST /register
+POST /signup
 Content-Type: application/json
 
 {
